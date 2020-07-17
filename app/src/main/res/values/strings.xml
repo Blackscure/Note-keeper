@@ -12,4 +12,5 @@
     <string name="title_activity_note">NoteActivity</string>
     <string name="title_activity_note_list">NoteListActivity</string>
     <string name="title_activity_not">NotActivity</string>
+    <string name="send_as_email">Send as email</string>
 </resources>

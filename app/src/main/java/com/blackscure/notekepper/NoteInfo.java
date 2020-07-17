@@ -18,7 +18,6 @@ public final class NoteInfo implements Parcelable {
         mCourse = parcel.readParcelable(CourseInfo.class.getClassLoader());
         mTitle = parcel.readString();
         mText = parcel.readString();
-
     }
 
     public CourseInfo getCourse() {
@@ -79,7 +78,6 @@ public final class NoteInfo implements Parcelable {
         parcel.writeParcelable(mCourse, 0);
         parcel.writeString(mTitle);
         parcel.writeString(mText);
-
     }
 
     public static final Parcelable.Creator<NoteInfo> CREATOR =
@@ -95,3 +93,7 @@ public final class NoteInfo implements Parcelable {
                 }
             };
 }
+
+
+
+
